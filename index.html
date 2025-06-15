@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cat Log</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&family=Hi+Melody&family=Matemasie&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+        
+            <a class="navbar-brand" href="#hero-banner" style="font-family: 'Matemasie', sans-serif;">Cat Log</a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-3"> 
+                        <a class="nav-link active" aria-current="page" href="#main-modules-grid">Cat Log 안내</a> 
+                    </li>
+                    <li class="nav-item me-3"> <a class="nav-link" href="step.html" target="_blank">시작하기</a> </li>
+                    <li class="nav-item me-3"> <a class="nav-link" href="latter.html" target="_blank">후기</a> 
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="care.html">앞으로</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero-banner" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="container text-center">
+             
+            <img src="fhduajnsh887d.png" alt="Cat Log 메인 이미지" style="width: 300px; height: auto; margin-bottom: 30px;">
+            
+            <h1 class="display-4 fw-bold mb-3">한 걸음씩, 가족을 맞이하기 위한 기록</h1> 
+            <a href="#main-modules-grid" class="btn btn-warning rounded-pill px-4 py-2 hero-scroll-button">Cat Log 안내</a>
+        </div>
+    </section>
+
+    <section id="main-modules-grid">
+        <div class="container overflow-hidden">
+            <div class="section-title">
+                <h2 class="fw-bold">Cat Log 안내</h2> 
+                <p class="lead text-muted">입양의 여정을 더욱 책임감 있게 도와드립니다.</p>
+            </div>
+
+            <div class="row pb-5 g-4 justify-content-center">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#catLogModal">
+                        <img src="89cc0e781feea23a706e0c465c505d20.jpg" class="card-img-top" alt="Cat Log">
+                        <div class="card-body">
+                            <h5 class="card-title">Cat Log</h5>
+                            <p class="card-text">입양의 시작부터 가족이 되는 그날까지, Cat Log가 함께 걷습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#startModal"> 
+                        <img src="2f7fa931406745e9debec1eba4ccfb5f.jpg" class="card-img-top" alt="시작하기">
+                        <div class="card-body">
+                            <h5 class="card-title">시작하기</h5>
+                            <p class="card-text">입양을 준비하며 필수로 필요한 과정을 6단계로 안내합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#reviewModal">
+                        <img src="04f5a5f879e8a40f8b8afd1213b2907a.jpg" class="card-img-top" alt="후기">
+                        <div class="card-body">
+                            <h5 class="card-title">후기&앞으로</h5>
+                            <p class="card-text">고양이를 가족으로 맞이한 이들의 따뜻한 기록과 확인사항입니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="video-overview">
+        <div class="container">
+            <div class="row p-4 align-items-center">
+                <div class="col-lg-9"> 
+                    <h2 class="fw-bold mb-3"></h2> 
+                    <p></p>
+                </div>
+
+                <div class="col-lg-3 text-lg-end mt-4 mt-lg-0">
+                    <a href="step.html" target="_blank" class="btn btn-warning rounded-pill px-4 py-2">
+                        시작하기 
+                    </a>
+
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="catLogModal" tabindex="-1" aria-labelledby="catLogModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="catLogModalLabel">Cat Log란?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    <p>고양이를 입양하는 일은 단순한 선택이 아니라, 한 생명을 가족으로 맞이하는 중요한 결정입니다.</p>
+                    <p>Cat Log는 입양을 고민하는 분들이 놓치기 쉬운 준비 과정을 차근차근 따라갈 수 있도록 돕는 여정 기록 사이트입니다.</p>
+                    <p>6가지의 단계를 시각적으로 확인하고 스스로 체크하며 책임감 있는 입양을 실천해보세요.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="startModal" tabindex="-1" aria-labelledby="startModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="startModalLabel">Step 1 ~ Step 6</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    <p><strong>Step 1. 알레르기 확인</strong><br>가족 모두 고양이와 함께 살 수 있는 건강 상태인지 확인해요.</p>
+                    <p><strong>Step 2. 입양처 탐색</strong><br>믿을 수 있는 보호소나 구조 단체에서 고양이를 만나는 방법을 알아봐요.</p>
+                    <p><strong>Step 3. 공간 준비</strong><br>고양이를 안전하게 맞이할 수 있도록 집 안 환경을 점검해요.</p>
+                    <p><strong>Step 4. 필수 물품 준비</strong><br>고양이가 편안하게 적응할 수 있도록 필요한 물품을 준비해요.</p>
+                    <p><strong>Step 5. 병원 및 접종 계획</strong><br>건강한 시작을 위해 병원과 예방접종 일정을 미리 확인해요.</p>
+                    <p><strong>Step 6. 적응기 준비</strong><br>고양이가 가족의 품에 잘 적응할 수 있도록 미리 이해하고 준비해요.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="reviewModal" tabindex="-1" aria-labelledby="reviewModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="reviewModalLabel">입양 후기와 필수 확인사항</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                </div>
+                <div class="modal-body text-dark">
+                    <p>Cat Log와 함께 새로운 가족을 맞이한 분들의 따뜻하고 감동적인 후기들을 만나보세요.</p>
+                    <p>앞으로 고양이를 키우면서 잊지 않고, 기억해야 할 내용들을 정리해뒀으니 반드시 확인해 주세요.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script>
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+
+                
+                if (targetId === '#hero-banner' || document.querySelector(targetId)) {
+                    e.preventDefault(); 
+                    const targetElement = document.querySelector(targetId);
+                    const navbarHeight = document.querySelector('.navbar').offsetHeight; 
+
+                    if (targetElement) {
+                        const scrollPosition = targetElement.offsetTop - navbarHeight;
+                        window.scrollTo({
+                            top: scrollPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        
+        window.addEventListener('load', function() {
+            const navbarHeight = document.querySelector('.navbar').offsetHeight;
+            document.getElementById('hero-banner').style.paddingTop = navbarHeight + 'px';
+        });
+        window.addEventListener('resize', function() {
+            const navbarHeight = document.querySelector('.navbar').offsetHeight;
+            document.getElementById('hero-banner').style.paddingTop = navbarHeight + 'px';
+        });
+    </script>
+</body>
+</html>

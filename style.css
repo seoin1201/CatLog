@@ -1,0 +1,166 @@
+body {
+    font-family: "Asta Sans", sans-serif;
+    color: #6E7379;
+    background-color: #f2f4f6;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Asta Sans", sans-serif;
+    color: #6E7379;
+    margin-bottom: 1rem;
+}
+
+.navbar-brand {
+    font-family: "Matemasie", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #5786DC !important;
+}
+
+#hero-banner h1 {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #6E7379;
+}
+
+.navbar {
+    background-color: #FFFBF0;
+    box-shadow: none;
+    padding: 0.8rem 0;
+    z-index: 1030;
+}
+
+.nav-link {
+    font-family: "Asta Sans", sans-serif;
+    font-weight: 500;
+    color: #6E7379 !important;
+    transition: color 0.3s ease-in-out;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+#hero-banner {
+    background-color: #FFFBF0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #e9ecef;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero-banner p.lead {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 1.25rem;
+    color: #6E7379;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+}
+
+#main-modules-grid {
+    background-color: #FFF4D4;
+    padding: 60px 0;
+}
+
+#main-modules-grid .card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #FFFBF0;
+    box-shadow: none;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#main-modules-grid .card:hover {
+    transform: translateY(-5px);
+    box-shadow: none;
+}
+
+#main-modules-grid .card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 1px solid #e9ecef;
+}
+
+#main-modules-grid .card-body {
+    padding: 1.25rem;
+}
+
+#main-modules-grid .card-title {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #6E7379;
+}
+
+#main-modules-grid .card-text {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 0.9rem;
+    color: #6E7379;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #6E7379;
+}
+
+.section-title p.lead {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 1.1rem;
+    color: #6E7379;
+}
+
+#video-overview {
+    background-color: #FFFBF0;
+    color: #6E7379;
+    padding: 80px 0;
+}
+
+.modal-title {
+    font-family: "Asta Sans", sans-serif;
+    color: #6E7379 !important;
+}
+.modal-body {
+    font-family: "Asta Sans", sans-serif;
+    color: #6E7379 !important;
+}
+
+.btn {
+    color: #FFFBF0 !important;
+    font-weight: 700 !important;
+}
+.btn-warning {
+    color: #FFFBF0 !important;
+    font-weight: 700 !important;
+}
+
+.step-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #6E7379;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.step-card p {
+    font-size: 1.1rem;
+    color: #6E7379;
+    line-height: 1.6;
+}

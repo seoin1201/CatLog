@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cat Log</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&family=Hi+Melody&family=Matemasie&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+    <style>
+        body {
+            font-family: 'Asta Sans', sans-serif;
+            background-color: #FFFBF0; 
+            color: #6E7379;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding-top: 56px; 
+        }
+
+        .navbar {
+            background-color: #FFFBF0; 
+            box-shadow: none; 
+            padding: 0.8rem 0;
+            z-index: 1030;
+        }
+        .navbar-brand {
+            font-family: 'Matemasie', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #5786DC !important; 
+        }
+        .nav-link {
+            font-family: 'Asta Sans', sans-serif;
+            font-weight: 500;
+            color: #6E7379 !important; 
+            transition: color 0.3s ease-in-out;
+            padding: 0.5rem 1rem;
+        }
+        .nav-link:hover {
+            color: #ffc107 !important; 
+        }
+
+        .end-container {
+            flex-grow: 1; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #FFFBF0; 
+        }
+
+        .celebration-icon {
+            font-size: 4rem; 
+            color: #ffc107; 
+            margin-bottom: 20px; 
+        }
+
+        .end-title {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 700;
+            color: #6E7379; 
+            font-size: 2.5rem; 
+            margin-bottom: 20px;
+        }
+
+        .end-description {
+            font-family: 'Noto Sans KR', sans-serif;
+            color: #6E7379; 
+            font-size: 1.1rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin-bottom: 15px;
+        }
+
+        
+        .btn-review-with-icon {
+            display: inline-flex;
+            align-items: center;
+            background-color: #ffc107; 
+            color: #FFFBF0; 
+            border: 2px solid #ffc107; 
+            border-radius: 30px; 
+            padding: 8px 25px; 
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+        }
+
+        .btn-review-with-icon:hover {
+            background-color: #FFDA44; 
+            border-color: #FFDA44; 
+            color: #FFFBF0; 
+        }
+        footer {
+            background-color: #FFFBF0; 
+            color: #6E7379; 
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            width: 100%;
+        }
+        footer a {
+            color: #ffc107; 
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .celebration-icon {
+                font-size: 3rem;
+                margin-bottom: 15px;
+            }
+            .end-title {
+                font-size: 2rem;
+            }
+            .end-description {
+                font-size: 1rem;
+            }
+            .btn-review-with-icon {
+                font-size: 1rem;
+                padding: 8px 20px;
+            }
+            body {
+                padding-top: 56px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Cat Log</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="index.html#main-modules-grid">Cat Log 안내</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="step.html">시작하기</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="latter.html">후기</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="care.html">앞으로</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="end-container">
+        <i class="bi bi-fireworks celebration-icon"></i>
+        <h1 class="end-title">축하합니다!</h1>
+        <p class="end-description">Cat Log와 함께 책임감 있는 입양 준비를 해주셔서 감사합니다.</p>
+        <p class="end-description">마지막으로 Cat Log의 따뜻하고 감동적인 후기들을 만나보세요.</p>
+        <a href="latter.html" class="btn btn-review-with-icon">
+            후기 
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
